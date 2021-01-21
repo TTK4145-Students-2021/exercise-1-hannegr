@@ -2,7 +2,7 @@ Exercise 1 - Theory questions
 -----------------------------
  
  ### What is the difference between concurrency and parallelism?
- > *Your answer here*
+ > parallellism is when more tasks run in actual parallell, while concurrency is when they don't but it seems like they do. 
  
  ### Why have machines become increasingly multicore in the past decade?
  > *Your answer here*

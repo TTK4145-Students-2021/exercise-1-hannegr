@@ -14,7 +14,7 @@ Exercise 1 - Theory questions
  
  ### Does creating concurrent programs make the programmer's life easier? Harder? Maybe both?
  (Come back to this after you have worked on part 4 of this exercise)
- > *Your answer here*
+ > In some way it probably makes it easier because different programs can be executed at the same time-interval. However, it seems from task 4 like it is easy to make a mistake and cause files to run at the same time, for instance if two functions want to change the same global variable. So it probably makes a programmers life harder because it is important to keep track of what she/he is doing. 
  
  ### What is the conceptual difference between threads and processes?
  > A process is a container of threads, and unlike threads they don't share memory between them. A thread is a collection of data, the smallest unit of execution in a computer program. It tells if the task is ready to run, what priority it has if that is important, and where in the memory it is. A thread is a stack, register and instruction pointer together. They are actually "running" things. But threads can cause race conditions, so be aware! Threads and processess are not so different, and in LINUX both are called called tasks. 
